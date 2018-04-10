@@ -1,15 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Xyi</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Барбершоп</title>
 </head>
+
 <body>
-	<ul>
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
-	</ul>
+	<header class="main-header"> 
+	<div class="container">
+		<nav class="main-navigation">
+			<ul>
+				<li>
+					<a href="#">Информация</a>
+				</li>
+				<li>
+					<a href="#">Новости</a>
+				</li>
+				<li>
+					<a href="#">Прайс-лист</a>
+				</li>
+				<li>
+					<a href="#">Магазин</a>
+				</li>
+				<li>
+					<a href="#">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="user-block">
+			<a class="login" href="#">Вход</a>
+
+		</div>
+	</div>
+
+</header>
+
+<main class="container">
+	<div class="index-logo">
+		<img src="barbershop/barbershop-index.jpg" alt="Barbershop" width="368" height="204"> 
+	</div>
+	<section class="fearures">
+		<div class="fearures-item">
+			<b class="fearures-name">Быстро</b>
+			<p>Text...Text...Text...Text...Text...Text...Text...Text...Text...Text...</p>
+		</div>
+		<div class="fearures-item">
+			<b class="fearures-name">Качественно</b>
+			<p>Text...Text...Text...Text...Text...Text...Text...Text...Text...Text...</p>
+		</div>
+		<div class="fearures-item">
+			<b class="fearures-name">Дорого</b>
+			<p>Text...Text...Text...Text...Text...Text...Text...Text...Text...Text...</p>
+		</div>
+	</section>
+
+	<div class="index-content">
+		<div class="index-content-lift">
+			<h2 class="index-content-title">Новости</h2>
+			<ul class="news-preview">
+				<li>
+					<p>News...News...News...News...News...News...News...News...News...</p>
+					<time datetime="2018-01-11"> 11 Jenuary</time>
+				</li>
+				<li>
+					<p>News...News...News...News...News...News...News...News...News...</p>
+					<time datetime="2018-02-21"> 11 February</time>
+				</li>
+			</ul>
+			<a class="btn" href="#"> Все новости</a>
+		</div>
+		<div class="index-content-right">
+			<h2 class="index-content-title">Фотогаллерея</h2>
+			<div class="gallery">
+				<figure class="gallery-content">
+					<img src="barbershop/barbershop-item.psd" height="200" width="150">
+				</figure>
+				<button class="btn-gallery-prev">Back</button>
+				<button class="btn-gallery-next">Next</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="index-content">
+		<div class="index-content-lift">
+			<h2 class="index-content-title">Контактная информация</h2>
+			<p>Text...Text...Text...Text...Text...<br>Text...Text...Text...Text...Text...</p>
+			<a class="btn" href="#">How to get</a>
+			<a class="btn" href="#">Link to us</a>
+		</div>
+		<div class="index-content-right">
+			<h2 class="index-content-title">Записаться</h2>
+			<p>Text...Text...Text...Text...Text...Text...Text...Text...Text...Text...</p>
+			<form class="appointment-form" action="" method="post">
+				<input type="text" name="date" value="" placeholder="Date">
+				<input type="text" name="time" value="" placeholder="Time">
+				<input type="tel" name="phone" value="" placeholder="Number">
+				<input type="text" name="name" value="" placeholder="Your Name">
+				<button class="btn" type="submit">Send</button>
+			</form>
+			</div>
+		</div>
+	</div>
+	
+</main>
+
+<footer class="main-footer">
+	<div class="container">
+		
+	</div>
+
+</footer>
 	
 </body>
 </html>
